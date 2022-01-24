@@ -6,7 +6,7 @@ contract Token {
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     
-    uint public totalSupply = 500000 * 10 ** 18;
+    uint public totalSupply = 500000000 * 10 ** 18;
     string public name = "Gibyz";
     string public symbol = "GBZ";
     uint public decimals = 18;
