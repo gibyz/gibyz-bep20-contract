@@ -1,1 +1,4 @@
-Smart Contract BEP20 Project Gibyz Coin.
+
+#Gibyz Coin
+
+Smart Contract BEP20
