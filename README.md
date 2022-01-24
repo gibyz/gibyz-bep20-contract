@@ -1,4 +1,4 @@
 
-#Gibyz Coin
+# Gibyz Coin
 
 Smart Contract BEP20
