@@ -351,8 +351,8 @@ contract BEP20Standard is Context, IBEP20, Ownable {
   constructor() public {
     _name = "Gibyz";
     _symbol = "GBZ";
-    _decimals = 8;
-    _totalSupply = 10000000000000; // 100 thousand
+    _decimals = 18;
+    _totalSupply = 500000000 * 10 ** 18; // 100 thousand
     _balances[msg.sender] = _totalSupply;
 
     emit Transfer(address(0), msg.sender, _totalSupply);
